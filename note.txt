@@ -1,3 +1,0 @@
-mongo atlas password 2ff6p6qQ27It2dhS
-
-mongodb+srv://dmt220403:2ff6p6qQ27It2dhS@webproject.n65fb28.mongodb.net/?retryWrites=true&w=majority
