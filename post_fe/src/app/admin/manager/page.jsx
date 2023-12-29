@@ -16,7 +16,7 @@ function MainManager() {
         data()
     },[])
     return ( <section>
-                <h1 className="p-4 text-3xl font-bold">Quản lý địa điểm</h1>
+                <h1 className="p-4 text-3xl font-bold">Quản lý địa điểm tập kết</h1>
                 <section className="p-4">
                     <h2 className="p-4 text-xl">Điểm tập kết</h2>
                     {user?.role === "admin" && <Link href={"/admin/manager/createGathering"} className="p-4 underline text-xl text-blue-600">Tạo địa điểm Tập kết</Link>}
