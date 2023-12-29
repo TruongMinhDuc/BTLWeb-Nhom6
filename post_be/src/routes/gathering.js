@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const Gathering = require("../app/controlers/gatheringController");
-
+router.patch("/delete-note/:id/:gathering", Gathering.deleteId);
 router.patch("/send-gathering/:id/:gathering", Gathering.sendToGathering);
 router.patch("/send-note/:id/:gathering", Gathering.sendTotransactionPoint);
 router.patch("/add-note/:id", Gathering.createNoteandAddtoGathering);
